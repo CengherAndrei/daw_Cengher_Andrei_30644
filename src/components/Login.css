@@ -1,0 +1,159 @@
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
+/* Stilizarea formularului */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Stilizarea paginii */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.agent-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spaces-list {
+    margin-top: 2rem;
+    width: 50%;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.space-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-info h3 {
+    margin-top: 0;
+}
+
+.space-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.space-actions button {
+    margin-bottom: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.space-actions button:hover {
+    background-color: #0062cc;
+}
+
+.space-actions button.delete {
+    background-color: #dc3545;
+}
+
+.space-actions button.delete:hover {
+    background-color: #c82333;
+}
+
+.form {
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.form button[type="submit"]:hover {
+    background-color: #0062cc;
+}
